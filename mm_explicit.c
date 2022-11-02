@@ -216,7 +216,7 @@ void *mm_malloc(size_t size)
 {
     size_t asize; //할당할 블록 사이즈
     size_t extendsize;
-    void *bp; /
+    void *bp; 
 
     // Ignore spurious requests - size가 0이면 할당x
     if(size <= 0) // == 대신 <=
