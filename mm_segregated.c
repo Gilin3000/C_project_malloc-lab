@@ -66,7 +66,7 @@
 
 // Address of free block's predecessor and successor entries 
 #define PRED_PTR(ptr) ((char *)(ptr))
-#define SUCC_PTR(ptr) ((char *)(ptr) + WSIZE)
+#define s
 
 // Address of free block's predecessor and successor on the segregated list 
 #define PRED(ptr) (*(char **)(ptr))
