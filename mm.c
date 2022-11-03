@@ -495,7 +495,7 @@ void *mm_realloc(void *ptr, size_t size)
 
 
 
-            
+
             bp = place(bp, asize);
             memcpy(bp, ptr, cur_size - (2 * WSIZE));
             mm_free(ptr);
